@@ -1,0 +1,12 @@
+python 
+openai
+pandas
+openpyxl
+langchain
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+openai-whisper
+pyttsx3
+omnivoice
+torch

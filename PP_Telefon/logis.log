@@ -1,0 +1,1101 @@
+[19:33:00] INFO: Идёт распознавание...
+[19:33:01] INFO: Распознанный текст:  Buenas tardes, me llamo Illya, soy Programming Programatur
+[12:51:28] INFO: Идёт распознавание...
+[12:51:30] INFO: Распознанный текст:  Buenas tardes, me llamo Illya, soy Programming Programatur
+[12:51:30] INFO: LLM: Начало обработки текста...
+[12:51:33] INFO: Retrying request to /chat/completions in 0.393404 seconds
+[12:51:35] INFO: Retrying request to /chat/completions in 0.882342 seconds
+[12:51:38] ERROR: LLM: Ошибка при обращении к серверу: Connection error.
+[12:55:36] INFO: Идёт распознавание...
+[12:55:38] INFO: Распознанный текст:  Buenas tardes, me llamo Illya, soy Programming Programatur
+[12:55:38] INFO: LLM: Начало обработки текста...
+[12:55:40] INFO: Retrying request to /chat/completions in 0.398855 seconds
+[12:55:43] INFO: Retrying request to /chat/completions in 0.766616 seconds
+[12:55:45] ERROR: LLM: Ошибка при обращении к серверу: Connection error.
+[13:04:47] INFO: Идёт распознавание...
+[13:04:48] INFO: Распознанный текст:  Buenas tardes, me llamo Illya, soy Programming Programatur
+[13:04:48] INFO: LLM: Начало обработки текста...
+[13:04:49] INFO: HTTP Request: POST http://localhost:1234/chat/completions "HTTP/1.1 200 OK"
+[13:04:49] ERROR: LLM: Ошибка при обращении к серверу: 'NoneType' object is not subscriptable
+[13:06:26] INFO: Идёт распознавание...
+[13:06:27] INFO: Распознанный текст:  Buenas tardes, me llamo Illya, soy Programming Programatur
+[13:06:27] INFO: LLM: Начало обработки текста...
+[13:06:28] INFO: HTTP Request: POST http://localhost:1234/chat/completions "HTTP/1.1 200 OK"
+[13:06:28] ERROR: LLM: Сервер вернул пустой список ответов.
+[13:08:14] INFO: Идёт распознавание...
+[13:08:16] INFO: Распознанный текст:  Buenas tardes, me llamo Illya, soy Programming Programatur
+[13:08:16] INFO: LLM: Начало обработки текста...
+[13:08:16] INFO: HTTP Request: POST http://localhost:1234/chat/completions "HTTP/1.1 200 OK"
+[13:08:16] ERROR: LLM: Сервер вернул пустой список ответов.
+[13:08:51] INFO: Идёт распознавание...
+[13:08:53] INFO: Распознанный текст:  Buenas tardes, me llamo Illya, soy Programming Programatur
+[13:08:53] INFO: LLM: Начало обработки текста...
+[13:08:53] INFO: HTTP Request: POST http://localhost:1234/chat/completions "HTTP/1.1 200 OK"
+[13:12:35] INFO: Идёт распознавание...
+[13:12:37] INFO: Распознанный текст:  Buenas tardes, me llamo Illya, soy Programming Programatur
+[13:12:37] INFO: LLM: Начало обработки текста...
+[09:02:13] INFO: Идёт распознавание...
+[09:02:16] INFO: Распознанный текст:  Привет, я как у вас дела?
+[09:02:16] INFO: LLM: Начало обработки текста...
+[09:02:16] ERROR: LLM: Критическая ошибка: create() got an unexpected keyword argument 'thinking'
+[09:04:01] INFO: Идёт распознавание...
+[09:04:03] INFO: Распознанный текст:  Привет, я как у вас дела?
+[09:04:03] INFO: LLM: Начало обработки текста...
+[09:04:03] ERROR: LLM: Критическая ошибка: create() got an unexpected keyword argument 'thinking'
+[09:05:26] INFO: Идёт распознавание...
+[09:05:28] INFO: Распознанный текст:  Привет, я как у вас дела?
+[09:05:28] INFO: LLM: Начало обработки текста...
+[09:08:28] INFO: Retrying request to /chat/completions in 0.495828 seconds
+[09:11:29] INFO: Retrying request to /chat/completions in 0.814193 seconds
+[09:14:29] ERROR: LLM: Критическая ошибка: Request timed out.
+[09:24:28] INFO: Идёт распознавание...
+[09:24:29] INFO: Распознанный текст:  Привет, я как у вас дела?
+[09:24:29] INFO: LLM: Начало обработки текста...
+[09:24:35] INFO: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+[09:26:00] INFO: Идёт распознавание...
+[09:26:02] INFO: Распознанный текст:  Buenas tardes, me llamo Illya, soy Programming Programatur
+[09:26:02] INFO: LLM: Начало обработки текста...
+[09:26:14] INFO: HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+[15:20:27] INFO: Use pytorch device_name: cuda:0
+[15:20:27] INFO: Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+[15:20:27] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:20:27] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:20:28] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:20:28] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:20:28] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:20:28] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[15:20:28] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:20:28] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[15:20:28] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+[15:20:28] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:20:28] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:20:29] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:20:29] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+[15:20:29] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[15:20:29] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:20:29] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:20:30] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:20:30] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:20:30] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:20:30] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:20:30] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:20:30] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:20:31] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[15:20:31] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[15:20:33] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:20:33] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:20:33] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[15:20:33] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:20:37] INFO: Идёт распознавание...
+[15:20:40] INFO: Распознанный текст:  Buenas tardes, me llamo Illya, soy Programming Programatur
+[15:20:40] INFO: LLM: Ищу данные в базе...
+[15:20:40] INFO: SEARCH: Нашел контекст: Сотрудник: Елена Сергеевна. Должность: Менеджер по работе с клиентами. Телефон: +7 (999) 987-65-43. 
+Сотрудник: Алексей Игоревич. Должность: Директор. Телефон: +7 (999) 111-22-33. 
+[15:23:58] INFO: Use pytorch device_name: cuda:0
+[15:23:58] INFO: Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+[15:23:59] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:23:59] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[15:23:59] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:23:59] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:23:59] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:23:59] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:23:59] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:23:59] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[15:23:59] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+[15:24:00] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:24:00] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:24:00] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:24:00] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+[15:24:00] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[15:24:00] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:24:00] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:24:01] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:24:01] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:24:01] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:24:01] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:24:01] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:24:01] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:24:01] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[15:24:02] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[15:24:03] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:24:04] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:24:04] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[15:24:04] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:24:06] INFO: Идёт распознавание...
+[15:24:07] INFO: Распознанный текст:  Buenas tardes, me llamo Illya, soy Programming Programatur
+[15:24:07] INFO: LLM: Ищу данные в базе...
+[15:24:07] INFO: SEARCH: Нашел контекст: Сотрудник: Елена Сергеевна. Должность: Менеджер по работе с клиентами. Телефон: +7 (999) 987-65-43. 
+Сотрудник: Алексей Игоревич. Должность: Директор. Телефон: +7 (999) 111-22-33. 
+[15:26:01] INFO: Use pytorch device_name: cuda:0
+[15:26:01] INFO: Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+[15:26:02] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:26:02] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:26:02] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:26:02] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[15:26:02] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:26:03] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:26:03] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:26:03] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[15:26:03] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+[15:26:03] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:26:03] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:26:03] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:26:03] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+[15:26:04] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[15:26:04] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:26:04] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:26:04] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:26:04] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:26:04] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:26:04] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:26:05] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:26:05] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:26:05] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[15:26:05] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[15:26:07] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:26:07] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:26:07] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[15:26:08] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:26:09] INFO: Идёт распознавание...
+[15:26:10] INFO: Распознанный текст:  Здравствуйте, мне нужен механик.
+[15:26:10] INFO: LLM: Ищу данные в базе...
+[15:26:11] INFO: SEARCH: Нашел контекст: Сотрудник: Елена Сергеевна. Должность: Менеджер по работе с клиентами. Телефон: +7 (999) 987-65-43. 
+Сотрудник: Алексей Игоревич. Должность: Директор. Телефон: +7 (999) 111-22-33. 
+[15:28:59] INFO: Use pytorch device_name: cuda:0
+[15:28:59] INFO: Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+[15:29:00] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:29:00] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:29:00] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:29:00] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:29:01] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:29:01] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:29:01] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[15:29:01] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+[15:29:01] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:29:01] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:29:01] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:29:01] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+[15:29:02] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[15:29:02] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[15:29:02] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:29:02] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:29:02] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:29:02] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:29:02] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:29:03] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:29:03] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:29:03] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:29:03] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[15:29:03] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[15:29:05] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:29:05] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:29:05] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[15:29:06] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:29:07] INFO: Идёт распознавание...
+[15:29:08] INFO: Распознанный текст:  Здравствуйте, мне нужен механик.
+[15:29:08] INFO: LLM: Ищу данные в базе...
+[15:29:09] ERROR: SEARCH: Ошибка поиска: cannot access local variable 'results' where it is not associated with a value
+[15:33:06] INFO: Use pytorch device_name: cuda:0
+[15:33:06] INFO: Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+[15:33:06] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:33:06] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:33:07] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:33:07] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[15:33:07] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:33:07] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:33:07] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:33:07] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[15:33:07] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+[15:33:07] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:33:07] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:33:08] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:33:08] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+[15:33:08] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[15:33:08] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:33:08] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:33:08] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:33:08] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:33:09] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:33:09] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:33:09] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:33:09] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:33:09] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[15:33:09] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[15:33:11] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:33:12] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:33:12] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[15:33:12] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:33:13] INFO: Идёт распознавание...
+[15:33:15] INFO: Распознанный текст:  Здравствуйте, мне нужен механик.
+[15:33:15] INFO: LLM: Ищу данные в базе...
+[15:33:15] INFO: SEARCH: Подключаюсь к базе по пути db
+[15:33:15] INFO: SEARCH: Нашел 3 фрагментов.
+[15:38:58] INFO: Use pytorch device_name: cuda:0
+[15:38:58] INFO: Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+[15:38:59] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:38:59] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:38:59] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:38:59] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:38:59] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:38:59] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:39:00] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[15:39:00] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+[15:39:00] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:39:00] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:39:00] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:39:00] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[15:39:00] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+[15:39:00] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[15:39:01] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:39:01] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:39:01] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:39:01] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:39:01] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:39:01] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:39:02] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:39:02] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:39:02] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[15:39:02] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[15:39:04] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:39:04] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:39:04] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[15:39:04] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:39:06] INFO: Идёт распознавание...
+[15:39:07] INFO: Распознанный текст:  Дайте номер директора.
+[15:39:07] INFO: LLM: Ищу данные в базе...
+[15:39:07] INFO: SEARCH: Подключаюсь к базе по пути db
+[15:39:07] INFO: SEARCH: Нашел 3 фрагментов.
+[15:50:30] INFO: Use pytorch device_name: cuda:0
+[15:50:30] INFO: Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+[15:50:30] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:50:30] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:50:31] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:50:31] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[15:50:31] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:50:31] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:50:31] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:50:31] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[15:50:31] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+[15:50:31] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:50:31] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:50:32] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:50:32] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+[15:50:32] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[15:50:32] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:50:32] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:50:32] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:50:33] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:50:33] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:50:33] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:50:33] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:50:33] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:50:33] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[15:50:33] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[15:50:35] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:50:36] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:50:36] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[15:50:36] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:50:38] INFO: Идёт распознавание...
+[15:50:38] CRITICAL: Ошибка транскрибации
+[15:50:38] INFO: LLM: Ищу данные в базе...
+[15:50:38] INFO: SEARCH: Подключаюсь к базе по пути db
+[15:50:38] ERROR: SEARCH: Ошибка при поиске: 'NoneType' object has no attribute 'replace'
+[15:51:07] INFO: Use pytorch device_name: cuda:0
+[15:51:07] INFO: Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+[15:51:08] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:51:08] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[15:51:08] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:51:08] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:51:08] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:51:08] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:51:08] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:51:08] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[15:51:08] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+[15:51:09] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:51:09] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:51:09] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:51:09] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+[15:51:09] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[15:51:09] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:51:09] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:51:10] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:51:10] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:51:10] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:51:10] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:51:10] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:51:10] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:51:10] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[15:51:11] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[15:51:12] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:51:13] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:51:13] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[15:51:13] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:51:15] INFO: Идёт распознавание...
+[15:51:15] CRITICAL: Ошибка транскрибации
+[15:51:15] INFO: LLM: Ищу данные в базе...
+[15:51:15] INFO: SEARCH: Подключаюсь к базе по пути db
+[15:51:15] ERROR: SEARCH: Ошибка при поиске: 'NoneType' object has no attribute 'replace'
+[15:52:09] INFO: Use pytorch device_name: cuda:0
+[15:52:09] INFO: Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+[15:52:10] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:52:10] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:52:10] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:52:10] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:52:10] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[15:52:10] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[15:52:11] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[15:52:11] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+[15:52:11] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[15:52:11] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[15:52:11] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:52:11] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+[15:52:11] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[15:52:12] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:52:12] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[15:52:12] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:52:12] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:52:12] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[15:52:12] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:52:12] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:52:13] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[15:52:13] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[15:52:13] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[15:52:13] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[15:52:15] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:52:15] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[15:52:15] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[15:52:15] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[15:52:17] INFO: Идёт распознавание...
+[15:52:18] INFO: Распознанный текст:  Дайте номер директора.
+[15:52:18] INFO: LLM: Ищу данные в базе...
+[15:52:18] INFO: SEARCH: Подключаюсь к базе по пути db
+[15:52:18] INFO: SEARCH: Нашел 3 фрагментов.
+[16:10:30] INFO: Use pytorch device_name: cuda:0
+[16:10:30] INFO: Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+[16:10:30] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[16:10:30] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[16:10:30] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[16:10:31] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[16:10:31] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+[16:10:31] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+[16:10:31] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[16:10:31] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+[16:10:31] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[16:10:31] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+[16:10:32] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[16:10:32] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[16:10:32] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+[16:10:32] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[16:10:32] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[16:10:32] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[16:10:33] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[16:10:33] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+[16:10:33] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[16:10:33] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[16:10:33] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[16:10:33] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+[16:10:33] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[16:10:34] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[16:10:35] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[16:10:36] INFO: HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[16:10:36] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[16:10:36] INFO: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+[16:10:38] INFO: Идёт распознавание...
+[16:10:39] INFO: Распознанный текст:  Дайте номер директора.
+[16:10:39] INFO: LLM: Ищу данные в базе...
+[16:10:39] INFO: SEARCH: Подключаюсь к базе по пути db
+[16:10:39] ERROR: SEARCH: Ошибка при поиске: Collection expecting embedding with dimension of 768, got 384
+[16:14:12] INFO: Use pytorch device_name: cuda:0
+[16:14:12] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[16:14:13] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[16:14:13] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[16:14:13] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[16:14:13] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[16:14:13] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[16:14:13] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[16:14:13] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[16:14:14] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[16:14:14] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[16:14:14] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[16:14:14] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[16:14:14] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[16:14:14] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[16:14:14] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[16:14:15] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[16:14:15] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[16:14:15] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[16:14:15] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[16:14:15] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[16:14:15] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[16:14:18] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[16:14:18] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[16:14:18] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[16:14:18] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[16:14:21] INFO: Идёт распознавание...
+[16:14:21] INFO: Распознанный текст:  Дайте номер директора.
+[16:14:21] INFO: LLM: Ищу данные в базе...
+[16:14:21] INFO: SEARCH: Подключаюсь к базе по пути db
+[16:14:22] INFO: SEARCH: Нашел 3 фрагментов.
+[16:15:50] INFO: Use pytorch device_name: cuda:0
+[16:15:50] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[16:15:50] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[16:15:50] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[16:15:51] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[16:15:51] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[16:15:51] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[16:15:51] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[16:15:51] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[16:15:51] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[16:15:51] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[16:15:52] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[16:15:52] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[16:15:52] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[16:15:52] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[16:15:52] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[16:15:52] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[16:15:52] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[16:15:53] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[16:15:53] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[16:15:53] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[16:15:53] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[16:15:56] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[16:15:56] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[16:15:56] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[16:15:56] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[16:15:58] INFO: Идёт распознавание...
+[16:15:59] INFO: Распознанный текст:  Дайте номер директора.
+[16:15:59] INFO: LLM: Ищу данные в базе...
+[16:15:59] INFO: SEARCH: Подключаюсь к базе по пути db
+[16:15:59] INFO: SEARCH: Нашел 3 фрагментов.
+[12:01:07] INFO: Use pytorch device_name: cuda:0
+[12:01:07] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[12:01:08] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[12:01:08] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[12:01:08] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[12:01:08] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[12:01:08] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[12:01:08] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[12:01:08] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[12:01:09] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[12:01:09] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[12:01:09] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[12:01:09] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[12:01:09] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[12:01:09] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[12:01:09] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[12:01:10] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[12:01:10] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[12:01:10] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[12:01:10] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[12:01:10] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[12:01:11] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[12:01:13] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[12:01:13] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[12:01:14] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[12:01:14] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[12:01:20] INFO: Идёт распознавание...
+[12:01:22] INFO: Распознанный текст:  Дайте номер директора.
+[12:01:22] INFO: LLM: Ищу данные в базе...
+[12:01:22] INFO: SEARCH: Подключаюсь к базе по пути db
+[12:01:23] INFO: SEARCH: Нашел 3 фрагментов.
+[12:07:24] INFO: Use pytorch device_name: cuda:0
+[12:07:24] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[12:07:25] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[12:07:25] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[12:07:25] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[12:07:25] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[12:07:25] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[12:07:25] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[12:07:25] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[12:07:26] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[12:07:26] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[12:07:26] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[12:07:26] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[12:07:26] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[12:07:26] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[12:07:26] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[12:07:27] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[12:07:27] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[12:07:27] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[12:07:27] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[12:07:27] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[12:07:27] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[12:07:30] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[12:07:30] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[12:07:31] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[12:07:31] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[12:07:36] INFO: Идёт распознавание...
+[12:07:39] INFO: Распознанный текст:  Дайте номер директора.
+[12:07:39] INFO: LLM: Ищу данные в базе...
+[12:07:39] INFO: SEARCH: Подключаюсь к базе по пути db
+[12:07:39] INFO: SEARCH: Нашел 3 фрагментов.
+[08:19:00] INFO: Use pytorch device_name: cpu
+[08:19:00] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[08:19:00] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:19:00] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:19:00] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:19:00] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:19:01] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:19:01] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[08:19:01] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[08:19:01] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[08:19:01] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[08:19:01] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:19:01] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:19:01] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:19:01] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[08:19:01] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[08:19:02] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[08:19:02] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:19:02] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:19:02] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:19:02] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+[08:19:03] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/xet-read-token/835193815a3936a24a0ee7dc9e3d48c1fbb19c55 "HTTP/1.1 200 OK"
+[08:19:52] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:19:52] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:19:53] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:19:53] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[08:19:53] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[08:19:53] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[08:19:54] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[08:19:54] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentencepiece.bpe.model "HTTP/1.1 302 Found"
+[08:19:58] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer.json "HTTP/1.1 302 Found"
+[08:19:59] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+[08:19:59] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+[08:19:59] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/special_tokens_map.json "HTTP/1.1 200 OK"
+[08:19:59] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/special_tokens_map.json "HTTP/1.1 200 OK"
+[08:19:59] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+[08:20:02] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:20:03] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:20:03] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[08:20:03] INFO: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[08:20:03] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:27:14] INFO: Use pytorch device_name: cpu
+[08:27:14] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[08:27:15] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:27:15] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:27:15] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:27:15] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:27:15] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[08:27:16] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[08:27:16] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:27:16] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:27:16] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:27:16] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[08:27:16] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[08:27:16] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:27:17] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:27:17] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:27:17] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:27:17] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:27:17] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[08:27:17] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[08:27:18] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[08:27:20] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:27:20] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:27:21] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[08:27:21] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:27:33] INFO: Идёт распознавание...
+[08:27:33] CRITICAL: Ошибка транскрибации
+[08:28:47] INFO: Use pytorch device_name: cpu
+[08:28:47] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[08:28:48] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:28:48] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:28:48] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:28:48] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:28:48] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[08:28:48] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[08:28:48] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:28:48] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[08:28:49] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:28:49] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:28:49] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[08:28:49] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[08:28:49] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:28:49] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:28:50] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:28:50] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:28:50] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:28:50] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[08:28:50] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[08:28:50] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[08:28:53] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:28:53] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:28:53] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[08:28:54] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:28:55] INFO: Идёт распознавание...
+[08:28:55] CRITICAL: Ошибка транскрибации
+[08:30:00] INFO: Use pytorch device_name: cpu
+[08:30:00] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[08:30:02] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:30:02] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:30:02] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:30:02] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:30:02] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[08:30:02] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[08:30:02] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[08:30:02] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:30:03] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:30:03] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:30:03] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[08:30:03] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[08:30:03] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:30:03] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:30:04] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:30:04] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:30:04] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:30:04] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[08:30:04] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[08:30:04] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[08:30:07] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:30:07] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:30:07] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[08:30:07] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:30:09] INFO: Идёт распознавание...
+[08:30:09] CRITICAL: Ошибка транскрибации
+[08:30:10] INFO: Установлен русский голос: zle/ru
+[08:30:10] INFO: LLM: Ищу данные в базе...
+[08:30:10] INFO: SEARCH: Подключаюсь к базе по пути db
+[08:30:12] ERROR: SEARCH: Ошибка при поиске: 'NoneType' object has no attribute 'replace'
+[08:30:12] INFO: TTS: Начинаю озвучку текста (длина: 274)...
+[08:30:12] INFO: TTS: Файл успешно сохранен: answer.mp3
+[08:31:11] INFO: Use pytorch device_name: cpu
+[08:31:11] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[08:31:12] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:31:12] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[08:31:12] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:31:12] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:31:12] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:31:12] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[08:31:12] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[08:31:12] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:31:12] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:31:13] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:31:13] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[08:31:13] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[08:31:13] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:31:13] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:31:14] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:31:14] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:31:14] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:31:14] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[08:31:14] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[08:31:14] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[08:31:17] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:31:17] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:31:17] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[08:31:17] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:31:18] INFO: Идёт распознавание...
+[08:31:18] CRITICAL: Ошибка транскрибации
+[08:31:18] INFO: Установлен русский голос: zle/ru
+[08:31:18] INFO: LLM: Ищу данные в базе...
+[08:31:18] INFO: SEARCH: Подключаюсь к базе по пути db
+[08:31:19] ERROR: SEARCH: Ошибка при поиске: 'NoneType' object has no attribute 'replace'
+[08:31:19] INFO: TTS: Начинаю озвучку текста (длина: 274)...
+[08:31:19] INFO: TTS: Файл успешно сохранен: answer.mp3
+[08:35:53] INFO: Идёт распознавание...
+[08:35:53] CRITICAL: Ошибка транскрибации
+[08:36:21] INFO: Идёт распознавание...
+[08:38:39] INFO: Идёт распознавание...
+[08:42:35] INFO: Идёт распознавание...
+[08:42:41] INFO: Распознанный текст:  Дайте номер директора.
+[08:43:34] INFO: Use pytorch device_name: cpu
+[08:43:34] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[08:43:34] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:43:34] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:43:34] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:43:34] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[08:43:35] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:43:35] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[08:43:35] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[08:43:35] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:43:35] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:43:35] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:43:35] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[08:43:36] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[08:43:36] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:43:36] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:43:36] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:43:36] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:43:37] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:43:37] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[08:43:37] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[08:43:37] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[08:43:39] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:43:40] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:43:40] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[08:43:40] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:43:44] INFO: Идёт распознавание...
+[08:43:46] INFO: Распознанный текст:  Дайте номер директора.
+[08:43:46] INFO: Установлен русский голос: zle/ru
+[08:43:46] INFO: LLM: Ищу данные в базе...
+[08:43:46] INFO: SEARCH: Подключаюсь к базе по пути db
+[08:44:00] INFO: SEARCH: Нашел 3 фрагментов.
+[08:44:00] INFO: TTS: Начинаю озвучку текста (длина: 274)...
+[08:44:00] INFO: TTS: Файл успешно сохранен: answer.mp3
+[08:45:52] INFO: Use pytorch device_name: cpu
+[08:45:52] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[08:45:52] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:45:52] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:45:53] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:45:53] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[08:45:53] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:45:53] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[08:45:53] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[08:45:53] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:45:53] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:45:54] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:45:54] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[08:45:54] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[08:45:54] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:45:54] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:45:55] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:45:55] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:45:55] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:45:55] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[08:45:57] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[08:45:57] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[08:45:59] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:46:00] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:46:00] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[08:46:00] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:46:01] INFO: Идёт распознавание...
+[08:46:08] INFO: Распознанный текст:  Дайте номер директора.
+[08:46:08] INFO: Установлен русский голос: zle/ru
+[08:46:08] INFO: LLM: Ищу данные в базе...
+[08:46:08] INFO: SEARCH: Подключаюсь к базе по пути db
+[08:46:09] INFO: SEARCH: Нашел 3 фрагментов.
+[08:46:09] INFO: TTS: Начинаю озвучку текста (длина: 274)...
+[08:46:09] INFO: TTS: Файл успешно сохранен: hernya.mp3
+[08:46:51] INFO: Use pytorch device_name: cpu
+[08:46:51] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[08:46:52] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:46:52] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:46:52] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:46:52] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:46:52] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[08:46:52] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[08:46:53] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:46:53] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:46:53] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:46:53] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[08:46:53] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[08:46:53] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[08:46:53] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:46:53] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:46:54] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:46:54] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:46:54] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:46:54] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[08:46:54] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[08:46:54] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[08:46:57] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:46:57] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:46:57] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[08:46:58] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:46:58] INFO: Установлен русский голос: zle/ru
+[08:46:59] INFO: Идёт распознавание...
+[08:47:01] INFO: Распознанный текст:  Дайте номер директора.
+[08:47:01] INFO: LLM: Ищу данные в базе...
+[08:47:01] INFO: SEARCH: Подключаюсь к базе по пути db
+[08:47:01] INFO: SEARCH: Нашел 3 фрагментов.
+[08:47:01] INFO: TTS: Начинаю озвучку текста (длина: 274)...
+[08:47:01] INFO: TTS: Файл успешно сохранен: hernya.mp3
+[08:47:28] INFO: Use pytorch device_name: cpu
+[08:47:28] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[08:47:28] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:47:28] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:47:28] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:47:29] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:47:29] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[08:47:29] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[08:47:29] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:47:29] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[08:47:29] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:47:29] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:47:29] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[08:47:29] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[08:47:30] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:47:30] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:47:30] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:47:30] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:47:30] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:47:30] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[08:47:31] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[08:47:31] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[08:47:33] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:47:34] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:47:34] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[08:47:34] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[08:47:34] INFO: Установлен русский голос: zle/ru
+[08:47:35] INFO: Идёт распознавание...
+[08:47:37] INFO: Распознанный текст:  Дайте номер директора.
+[08:47:37] INFO: LLM: Ищу данные в базе...
+[08:47:37] INFO: SEARCH: Подключаюсь к базе по пути db
+[08:47:37] INFO: SEARCH: Нашел 3 фрагментов.
+[08:47:37] INFO: TTS: Начинаю озвучку текста (длина: 274)...
+[08:47:37] INFO: TTS: Файл успешно сохранен: hernya.mp3
+[08:48:35] INFO: Use pytorch device_name: cpu
+[08:48:35] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[08:48:35] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:48:35] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:48:36] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:48:36] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[08:48:36] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[08:48:36] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[08:48:36] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[08:48:36] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[08:48:36] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[08:48:36] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:48:36] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[08:48:37] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[08:48:37] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:48:37] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:48:37] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[08:48:38] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[08:48:38] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[08:48:38] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[08:48:38] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[08:48:38] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[20:47:05] INFO: Use pytorch device_name: cuda:0
+[20:47:05] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[20:47:05] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[20:47:05] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[20:47:05] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[20:47:05] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[20:47:06] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[20:47:06] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[20:47:06] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[20:47:06] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[20:47:06] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[20:47:06] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[20:47:06] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[20:47:07] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[20:47:07] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[20:47:07] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[20:47:07] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[20:47:07] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[20:47:07] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[20:47:07] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[20:47:08] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[20:47:08] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[20:47:11] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[20:47:11] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[20:47:11] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[20:47:11] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[21:02:24] INFO: Use pytorch device_name: cpu
+[21:02:24] INFO: Load pretrained SentenceTransformer: intfloat/multilingual-e5-base
+[21:02:24] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[21:02:24] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[21:02:25] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[21:02:25] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config_sentence_transformers.json "HTTP/1.1 404 Not Found"
+[21:02:25] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[21:02:25] WARNING: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[21:02:25] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/README.md "HTTP/1.1 200 OK"
+[21:02:25] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+[21:02:25] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/modules.json "HTTP/1.1 200 OK"
+[21:02:26] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+[21:02:26] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/sentence_bert_config.json "HTTP/1.1 200 OK"
+[21:02:26] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+[21:02:26] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[21:02:26] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[21:02:26] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[21:02:26] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/config.json "HTTP/1.1 200 OK"
+[21:02:27] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[21:02:27] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/tokenizer_config.json "HTTP/1.1 200 OK"
+[21:02:27] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[21:02:27] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[21:02:30] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[21:02:30] INFO: HTTP Request: HEAD https://huggingface.co/intfloat/multilingual-e5-base/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+[21:02:30] INFO: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/intfloat/multilingual-e5-base/835193815a3936a24a0ee7dc9e3d48c1fbb19c55/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+[21:02:30] INFO: HTTP Request: GET https://huggingface.co/api/models/intfloat/multilingual-e5-base "HTTP/1.1 200 OK"
+[21:02:30] INFO: Could not import comtypes.gen, trying to create it.
+[21:02:30] INFO: Created comtypes.gen directory: 'D:\vs\python\PP_Telefon\PP_Telefon_new\Lib\site-packages\comtypes\gen'
+[21:02:30] INFO: Writing __init__.py file: 'D:\vs\python\PP_Telefon\PP_Telefon_new\Lib\site-packages\comtypes\gen\__init__.py'
+[21:02:30] INFO: Using writeable comtypes cache directory: 'D:\vs\python\PP_Telefon\PP_Telefon_new\Lib\site-packages\comtypes\gen'
+[21:02:30] INFO: Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+[21:02:30] INFO: # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+[21:02:30] INFO: # Generating comtypes.gen.SpeechLib
+[21:02:30] INFO: Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+[21:02:30] INFO: # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+[21:02:30] INFO: # Generating comtypes.gen.stdole
+[21:02:31] INFO: Установлен русский голос: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_RU-RU_IRINA_11.0
+[21:02:32] INFO: Идёт распознавание...
+[21:02:35] INFO: Распознанный текст:  Дайте номер директора.
+[21:02:35] INFO: LLM: Ищу данные в базе...
+[21:02:35] INFO: SEARCH: Подключаюсь к базе по пути db
+[21:02:35] INFO: SEARCH: Нашел 3 фрагментов.
+[21:02:39] INFO: TTS: Начинаю озвучку текста (длина: 54)...
+[21:02:39] INFO: TTS: Файл успешно сохранен: hernya.mp3
+[20:59:25] INFO: Could not import comtypes.gen, trying to create it.
+[20:59:25] INFO: Created comtypes.gen directory: 'C:\Users\okrud\AppData\Local\Programs\Python\Python314\Lib\site-packages\comtypes\gen'
+[20:59:25] INFO: Writing __init__.py file: 'C:\Users\okrud\AppData\Local\Programs\Python\Python314\Lib\site-packages\comtypes\gen\__init__.py'
+[20:59:25] INFO: Using writeable comtypes cache directory: 'C:\Users\okrud\AppData\Local\Programs\Python\Python314\Lib\site-packages\comtypes\gen'
+[20:59:25] INFO: Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+[20:59:25] INFO: # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+[20:59:26] INFO: # Generating comtypes.gen.SpeechLib
+[20:59:26] INFO: Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+[20:59:26] INFO: # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+[20:59:26] INFO: # Generating comtypes.gen.stdole
+[20:59:26] INFO: Установлен русский голос: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_RU-RU_IRINA_11.0
+[20:59:28] INFO: Идёт распознавание...
+[20:59:42] INFO: Распознанный текст: Дайте номер директора.
+[20:59:42] INFO: LLM: Ищу данные в базе...
+[20:59:42] INFO: SEARCH: Подключаюсь к базе по пути E:\study\PP_Telefon\PP_Telefon\db
+[20:59:53] INFO: SEARCH: Нашел 3 фрагментов.
+[20:59:53] INFO: TTS: Начинаю озвучку текста (длина: 69)...
+[20:59:54] INFO: TTS: Файл успешно сохранен: E:\study\PP_Telefon\PP_Telefon\output.mp3
+[21:01:06] INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\okrud\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[21:01:06] INFO: Using writeable comtypes cache directory: 'C:\Users\okrud\AppData\Local\Programs\Python\Python314\Lib\site-packages\comtypes\gen'
+[21:01:06] INFO: Установлен русский голос: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_RU-RU_IRINA_11.0
+[21:01:07] INFO: Идёт распознавание...
+[21:01:08] INFO: Распознанный текст: Дайте номер директора.
+[21:01:08] INFO: LLM: Ищу данные в базе...
+[21:01:08] INFO: SEARCH: Подключаюсь к базе по пути E:\study\PP_Telefon\PP_Telefon\db
+[21:01:08] INFO: SEARCH: Нашел 3 фрагментов.
+[21:01:09] INFO: TTS: Начинаю озвучку текста (длина: 69)...
+[21:01:09] INFO: TTS: Файл успешно сохранен: E:\study\PP_Telefon\PP_Telefon\output.mp3
+[21:02:45] INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\okrud\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[21:02:45] INFO: Using writeable comtypes cache directory: 'C:\Users\okrud\AppData\Local\Programs\Python\Python314\Lib\site-packages\comtypes\gen'
+[21:02:45] INFO: Установлен русский голос: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_RU-RU_IRINA_11.0
+[21:02:46] INFO: Идёт распознавание...
+[21:02:47] INFO: Распознанный текст: Здравствуйте, можно пожалуйста водить кто?
+[21:02:47] INFO: LLM: Ищу данные в базе...
+[21:02:47] INFO: SEARCH: Подключаюсь к базе по пути E:\study\PP_Telefon\PP_Telefon\db
+[21:02:47] INFO: SEARCH: Нашел 3 фрагментов.
+[21:02:48] INFO: TTS: Начинаю озвучку текста (длина: 106)...
+[21:02:48] INFO: TTS: Файл успешно сохранен: E:\study\PP_Telefon\PP_Telefon\output.mp3
+[21:06:34] INFO: TTS: Начинаю озвучку текста (длина: 33)...
+[21:06:35] INFO: TTS: Файл успешно сохранен: E:\study\PP_Telefon\PP_Telefon\output.mp3
+[21:07:53] INFO: Идёт распознавание...
+[21:07:54] INFO: Распознанный текст: Здравствуйте, можно пожалуйста водить кто?
+[21:07:54] INFO: LLM: Ищу данные в базе...
+[21:07:54] INFO: SEARCH: Подключаюсь к базе по пути E:\study\PP_Telefon\PP_Telefon\db
+[21:07:54] INFO: SEARCH: Нашел 3 фрагментов.
+[21:07:55] INFO: TTS: Начинаю озвучку текста (длина: 106)...
+[21:07:58] INFO: TTS: Файл успешно сохранен: E:\study\PP_Telefon\PP_Telefon\output.mp3
+[01:40:06] INFO: Идёт распознавание...
+[01:40:10] INFO: Распознанный текст: Здравствуйте, можно пожалуйста водить кто?
+[01:40:10] INFO: LLM: Ищу данные в базе...
+[01:40:10] INFO: SEARCH: Подключаюсь к базе по пути E:\study\PP_Telefon\PP_Telefon\db
+[01:40:11] INFO: SEARCH: Нашел 3 фрагментов.
+[01:40:31] INFO: TTS: Начинаю озвучку текста (длина: 106)...
+[01:40:35] INFO: TTS: Файл успешно сохранен: E:\study\PP_Telefon\PP_Telefon\output.mp3
+[01:42:24] INFO: Идёт распознавание...
+[01:42:26] INFO: Распознанный текст: Здравствуйте, можно пожалуйста водить кто?
+[01:42:26] INFO: LLM: Ищу данные в базе...
+[01:42:26] INFO: SEARCH: Подключаюсь к базе по пути E:\study\PP_Telefon\PP_Telefon\db
+[01:42:26] INFO: SEARCH: Нашел 3 фрагментов.
+[01:42:27] INFO: TTS: Начинаю озвучку текста (длина: 106)...
+[01:42:30] INFO: TTS: Файл успешно сохранен: E:\study\PP_Telefon\PP_Telefon\output.mp3
+[01:45:53] INFO: TTS: Начинаю озвучку текста (длина: 52)...
+[01:45:56] INFO: TTS: Файл успешно сохранен: E:\study\PP_Telefon\PP_Telefon\output.mp3
+[01:47:23] INFO: TTS: Начинаю озвучку текста (длина: 46)...
+[01:47:28] INFO: TTS: Файл успешно сохранен: E:\study\PP_Telefon\PP_Telefon\output.mp3
+[01:48:15] INFO: Идёт распознавание...
+[01:48:16] INFO: Распознанный текст: Здравствуйте, можно пожалуйста водить кто?
+[01:48:16] INFO: LLM: Ищу данные в базе...
+[01:48:16] INFO: SEARCH: Подключаюсь к базе по пути E:\study\PP_Telefon\PP_Telefon\db
+[01:48:16] INFO: SEARCH: Нашел 3 фрагментов.
+[01:48:17] INFO: TTS: Начинаю озвучку текста (длина: 154)...
+[01:48:23] INFO: TTS: Файл успешно сохранен: E:\study\PP_Telefon\PP_Telefon\output.mp3
+[01:49:34] INFO: Идёт распознавание...
+[01:49:35] INFO: Распознанный текст: Здравствуйте, можно пожалуйста водить кто?
+[01:49:35] INFO: LLM: Ищу данные в базе...
+[01:49:35] INFO: SEARCH: Подключаюсь к базе по пути E:\study\PP_Telefon\PP_Telefon\db
+[01:49:35] INFO: SEARCH: Нашел 3 фрагментов.
+[01:49:36] INFO: TTS: Начинаю озвучку текста (длина: 106)...
+[01:49:37] INFO: TTS: Файл успешно сохранен: E:\study\PP_Telefon\PP_Telefon\output.mp3
+[01:51:59] INFO: TTS: Начинаю озвучку текста (длина: 20)...
+[01:52:03] INFO: TTS: Файл успешно сохранен: E:\study\PP_Telefon\PP_Telefon\output.mp3
+[01:52:49] INFO: Идёт распознавание...
+[01:52:50] INFO: Распознанный текст: Здравствуйте, можно пожалуйста водить кто?
+[01:52:50] INFO: LLM: Ищу данные в базе...
+[01:52:50] INFO: SEARCH: Подключаюсь к базе по пути E:\study\PP_Telefon\PP_Telefon\db
+[01:52:50] INFO: SEARCH: Нашел 3 фрагментов.
+[01:52:51] INFO: TTS: Начинаю озвучку текста (длина: 106)...
+[01:53:01] INFO: TTS: Файл успешно сохранен: E:\study\PP_Telefon\PP_Telefon\output.mp3
+[01:53:47] INFO: Идёт распознавание...
+[01:53:48] INFO: Распознанный текст: Здравствуйте, можно пожалуйста водить кто?
+[01:53:48] INFO: LLM: Ищу данные в базе...
+[01:53:48] INFO: SEARCH: Подключаюсь к базе по пути E:\study\PP_Telefon\PP_Telefon\db
+[01:53:48] INFO: SEARCH: Нашел 3 фрагментов.
+[01:53:49] INFO: TTS: Начинаю озвучку текста (длина: 106)...
+[01:53:52] INFO: TTS: Файл успешно сохранен: E:\study\PP_Telefon\PP_Telefon\output.mp3
+[13:52:12] INFO: Идёт распознавание...
+[13:52:20] INFO: Распознанный текст: Здравствуйте, можно пожалуйста водить кто?
+[13:52:20] INFO: LLM: Ищу данные в базе...
+[13:52:20] INFO: SEARCH: Подключаюсь к базе по пути C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\db
+[13:52:22] INFO: SEARCH: Нашел 3 фрагментов.
+[13:52:35] INFO: TTS: Начинаю озвучку текста (длина: 275)...
+[13:52:42] INFO: TTS: Файл успешно сохранен: C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\output.mp3
+[14:39:21] INFO: Using device: cpu
+[14:39:21] INFO: Loading OmniVoice model...
+[14:43:50] INFO: OmniVoice loaded successfully.
+[14:43:52] INFO: Идёт распознавание...
+[14:43:59] INFO: Распознанный текст: Здравствуйте, можно пожалуйста водить кто?
+[14:43:59] INFO: LLM: Ищу данные в базе...
+[14:43:59] INFO: SEARCH: Подключаюсь к базе по пути C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\db
+[14:44:01] INFO: SEARCH: Нашел 3 фрагментов.
+[14:44:06] INFO: TTS: generating audio (295 chars)
+[14:55:29] INFO: Using device: cpu
+[14:55:29] INFO: Loading OmniVoice model...
+[14:55:31] INFO: OmniVoice loaded successfully.
+[14:55:34] INFO: Идёт распознавание...
+[14:55:40] INFO: Распознанный текст: Здравствуйте, можно пожалуйста водить кто?
+[14:55:40] INFO: LLM: Ищу данные в базе...
+[14:55:40] INFO: SEARCH: Подключаюсь к базе по пути C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\db
+[14:55:42] INFO: SEARCH: Нашел 3 фрагментов.
+[14:55:46] INFO: TTS: generating audio (202 chars)
+[15:07:35] INFO: TTS saved: C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\output.wav
+[15:16:15] INFO: Using device: cpu
+[15:16:15] INFO: Loading OmniVoice model...
+[15:16:17] INFO: OmniVoice loaded successfully.
+[15:16:19] INFO: Идёт распознавание...
+[15:16:26] INFO: Распознанный текст: Здравствуйте, мне нужен механик.
+[15:16:26] INFO: LLM: Ищу данные в базе...
+[15:16:26] INFO: SEARCH: Подключаюсь к базе по пути C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\db
+[15:16:28] INFO: SEARCH: Нашел 3 фрагментов.
+[15:16:32] INFO: TTS: generating audio (119 chars)
+[15:23:00] INFO: TTS saved: C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\output.wav
+[15:25:38] INFO: Using device: cpu
+[15:25:38] INFO: Loading OmniVoice model...
+[15:25:40] INFO: OmniVoice loaded successfully.
+[15:25:42] INFO: Идёт распознавание...
+[15:25:48] INFO: Распознанный текст: Здравствуйте, мне нужен механик.
+[15:25:48] INFO: LLM: Ищу данные в базе...
+[15:25:48] INFO: SEARCH: Подключаюсь к базе по пути C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\db
+[15:25:50] INFO: SEARCH: Нашел 3 фрагментов.
+[15:25:54] INFO: TTS: generating audio (62 chars)
+[15:31:07] INFO: TTS saved: C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\output.wav
+[15:32:15] INFO: Using device: cpu
+[15:32:15] INFO: Loading OmniVoice model...
+[15:32:17] INFO: OmniVoice loaded successfully.
+[15:32:19] INFO: Идёт распознавание...
+[15:32:26] INFO: Распознанный текст: Здравствуйте, мне нужен механик.
+[15:32:26] INFO: LLM: Ищу данные в базе...
+[15:32:26] INFO: SEARCH: Подключаюсь к базе по пути C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\db
+[15:32:27] INFO: SEARCH: Нашел 3 фрагментов.
+[15:32:31] INFO: TTS: generating audio (152 chars)
+[15:44:54] INFO: TTS saved: C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\output.wav
+[12:13:53] INFO: Using device: cpu
+[12:13:53] INFO: Loading OmniVoice model...
+[12:13:57] INFO: OmniVoice loaded successfully.
+[12:14:01] INFO: Идёт распознавание...
+[12:14:08] INFO: Распознанный текст: Здравствуйте, мне нужен механик.
+[12:14:08] INFO: LLM: Ищу данные в базе...
+[12:14:08] INFO: SEARCH: Подключаюсь к базе по пути C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\db
+[12:14:11] INFO: SEARCH: Нашел 3 фрагментов.
+[12:14:17] INFO: TTS: generating audio (143 chars)
+[12:24:24] INFO: TTS saved: C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\output.wav
+[12:52:41] INFO: Using device: cpu
+[12:52:41] INFO: Loading OmniVoice model...
+[12:52:45] INFO: OmniVoice loaded successfully.
+[12:52:48] INFO: Идёт распознавание...
+[12:52:57] INFO: Распознанный текст: Здравствуйте, мне нужен механик.
+[12:52:57] INFO: LLM: Ищу данные в базе...
+[12:52:57] INFO: SEARCH: Подключаюсь к базе по пути C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\db
+[12:52:59] INFO: SEARCH: Нашел 3 фрагментов.
+[12:53:04] INFO: TTS: generating audio (188 chars)
+[12:53:04] WARNING: Reference audio is 35.5s long (>20s). This may cause slower generation, higher memory usage, and degraded voice cloning quality. We recommend trimming it to 3-10s.
+[13:26:38] INFO: TTS saved: C:\Users\ii\Desktop\PP_Telefon\PP_Telefon\output.wav
